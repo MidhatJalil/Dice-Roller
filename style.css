@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+
+.container{
+    background-color: rgb(159, 220, 223);
+    height: 30rem;
+    width: 20rem;
+    border: 1px solid skyblue;
+    border-radius: 5%;
+    margin-left: 30rem;
+    margin-top: 7rem;
+    box-shadow: 2px 2px 12px 8px rgb(180, 170, 163);
+    transition: height 1s ease-in;
+    
+
+}
+
+img{
+    background-color: transparent;
+    height: 8rem;
+    width: 8rem;
+    margin: 2rem 6.5rem;
+    text-align: center;
+   
+}
+img:hover{
+  
+   transform: scale(2);
+}
+
+button{
+    height: 2rem;
+    width: 6rem;
+  
+    margin: 2rem 7rem;
+    border-radius: 10px;
+
+}
+#btn1{
+    margin-top: 3rem;
+
+}
+p{
+    font-size: 22px;
+    width: 6rem;
+    color: brown;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 7rem;
+}

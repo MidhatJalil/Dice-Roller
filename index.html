@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+
+    <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+      </head>
+</head>
+<body>
+    <div class="container">
+        <img  id="image" src="./images/1.svg"  class= "animate__animated animate__rollIn" alt="dice">
+
+        <p id="Number">0</p>
+        <button  id="btn1"  onclick="roll()" >Roll the dice</button>
+
+        <button id="btn2" onclick="restart()">Restart</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
